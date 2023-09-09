@@ -1,16 +1,14 @@
 {
-  "name": "skuflicapi",
-  "version": "1.0.1",
-  "private": true,
-  "homepage": "https://api.learn.skuflic.com",
-  "dependencies": {
-    "clone": "^2.1.2"
+  "name": "restful-api-vercel",
+  "version": "1.0.0",
+  "description": "This is a ready RESTful API created with the JSON Server package",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/ifkas/restful-api-vercel#readme",
+  "dependencies": {},
   "devDependencies": {
     "json-server": "^0.17.3"
-  },
-  "scripts": {
-    "dev": "NODE_ENV=development node server.js",
-    "start": "NODE_ENV=production node server.js"
   }
 }
