@@ -1,7 +1,9 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json --static ./landing');
-const middlewares = jsonServer.defaults();
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults(({
+    static: landing,
+}));
 const port = process.env.PORT || 3200;
 
 server.use(middlewares);
