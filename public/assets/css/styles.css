@@ -1,0 +1,117 @@
+body {
+  font-family: "GT Walsheim Pro";
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+p {
+  color: #ced4da;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.logo {
+  max-width: 100%;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  position: fixed;
+  bottom: 0;
+  opacity: 0.02;
+}
+
+.warning {
+  width: 100%;
+  color: #ced4da;
+}
+
+.manage,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url("https://image.tmdb.org/t/p/w1920_and_h1080_multi_faces/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  margin-bottom: -2px;
+}
+
+.legal {
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  opacity: 0.5;
+  color: #ced4da;
+  padding-right: 20px;
+}
+.legal a {
+  font-weight: 300;
+  color: #ced4da;
+  text-decoration: none;
+  border-right: 1px solid #ced4da;
+  margin-right: 5px;
+  padding-right: 8px;
+}
+.legal a:last-child {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.legal a:hover {
+  text-decoration: underline;
+}
+
+.bg-light::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://static.skuflic.com/images/branding/logo/dark.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  opacity: 0.02;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+ul a {
+  color: black;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+ul a:hover {
+  color: #0f62fe;
+}
+
+code {
+  color: #ced4da;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 3px;
+  margin: 10px 0px 10px 0px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+code:hover {
+  border: 1px solid #0f62fe;
+  color: #0f62fe;
+}/*# sourceMappingURL=styles.css.map */

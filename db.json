@@ -1,0 +1,70 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Bradford Morse",
+            "birthday": "November 1, 2001",
+            "street": "3423 Charla Lane",
+            "city": "Dallas",
+            "zip": 75287,
+            "state": "TX",
+            "country": "United States of America",
+            "phone": "623-977-5630"
+        },
+        {
+            "id": 2,
+            "name": "Terri Wilson",
+            "birth": "October 28, 1979",
+            "street": "2304 Tecumsah Lane",
+            "city": "Farmerville",
+            "zip": 71241,
+            "state": "LA",
+            "country": "United States of America",
+            "phone": "318-982-7172"
+        },
+        {
+            "id": 3,
+            "name": "Dorothy McKee",
+            "birth": "March 26, 1945",
+            "street": "2691 Edgewood Road",
+            "city": "Huttig",
+            "zip": 71747,
+            "state": "AR",
+            "country": "United States of America",
+            "phone": "870-943-0578"
+        },
+        {
+            "id": 4,
+            "name": "Vickie Keenan",
+            "birth": "April 19, 1998",
+            "street": "4356 Heather Sees Way",
+            "city": "Ketchum",
+            "zip": 74349,
+            "state": "OK",
+            "country": "United States of America",
+            "phone": "918-782-1391"
+        },
+        {
+            "id": 5,
+            "name": "Frances Canfield",
+            "birth": "707-910-7581",
+            "street": "2172 Pretty View Lane",
+            "city": "Sacramento",
+            "zip": 95814,
+            "state": "CA",
+            "country": "United States of America",
+            "phone": "707-910-7581"
+        },
+        {
+            "id": 6,
+            "name": "Susan Bufford",
+            "birth": null,
+            "street": "1637 Pike Street",
+            "city": "San Diego",
+            "zip": 71241,
+            "state": "CA",
+            "country": "United States of America",
+            "phone": null
+        }
+    ]
+}
