@@ -32,11 +32,6 @@ p {
   opacity: 0.02;
 }
 
-.warning {
-  width: 100%;
-  color: #ced4da;
-}
-
 .manage,
 .image {
   min-height: 100vh;
@@ -119,4 +114,12 @@ code {
 code:hover {
   border: 1px solid #0f62fe;
   color: #0f62fe;
+}
+
+#custom-routes {
+  margin-top: 35px;
+}
+
+#custom-routes code {
+  margin: 10px 3px 10px 5px;
 }
