@@ -9,6 +9,7 @@ const port = process.env.PORT || 3000;
 server.use(middlewares);
 
 server.use(jsonServer.rewriter({
+    '/quotes/:id': '/quotes?id=:id',
     '/quotes/:category': '/quotes?category=:category'
 }))
 
