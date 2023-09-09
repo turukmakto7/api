@@ -1,9 +1,10 @@
 {
   "name": "skuflicapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "homepage": "https://api.learn.skuflic.com",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "json-server": "^0.17.3"
   }
 }
