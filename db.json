@@ -202,7 +202,7 @@
             "id": 1,
             "name": "MacBook Air 13-inch with M1 chip",
             "price": "$999",
-            "category": "computer",
+            "type": "computer",
             "features": {
                 "chip": "Apple M1 chip delivers powerful CPU, GPU, and machine learning performance",
                 "battery": "Up to 18 hours of battery life so you can go longer than ever",
@@ -221,7 +221,7 @@
             "id": 2,
             "name": "MacBook Air 13-inch with M2 chip",
             "price": "$1099",
-            "category": "computer",
+            "type": "computer",
             "features": {
                 "chip": "Apple M1 chip delivers powerful CPU, GPU, and machine learning performance",
                 "battery": "Up to 18 hours of battery life so you can go longer than ever",

@@ -8,11 +8,9 @@ const port = process.env.PORT || 3000;
 
 server.use(middlewares);
 
+// Add this before server.use(router)
 server.use(jsonServer.rewriter({
-    '/quotes/:id': '/quotes?id=:id',
-    '/quotes/:category': '/quotes?category=:category',
-    '/products/:id': '/products?id=:id',
-    '/products/:category': '/products?category=:category'
+    '/quotes/:category': '/quotes?category=:category'
 }))
 
 server.use(jsonServer.bodyParser)
