@@ -13,11 +13,7 @@
     ],
     "routes": [
         {
-            "src": "/",
-            "dest": "public/index.html"
-        },
-        {
-            "src": "/",
+            "src": "/(.*)",
             "dest": "server.js"
         }
     ]
