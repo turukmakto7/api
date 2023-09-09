@@ -66,5 +66,135 @@
             "country": "United States of America",
             "phone": null
         }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "review": "I recently purchased the GlowMaster Pro LED flashlight, and I couldn't be happier with my purchase. This flashlight has quickly become an essential tool in my everyday life.",
+            "rating": 5,
+            "user": {
+                "username": "johnsmith"
+            }
+        },
+        {
+            "id": 2,
+            "review": "I recently tried the 'ZenSleep Tranquil Sleep Mask', and it's been a game-changer for my sleep quality. This sleep mask is incredibly comfortable, with a soft, breathable fabric that blocks out all unwanted light, creating a pitch-black sleeping environment. The adjustable strap ensures a snug fit without any discomfort. What sets it apart is the built-in Bluetooth speakers, which allow me to listen to soothing sounds or white noise, helping me drift into a deeper and more peaceful sleep. It's become an essential part of my bedtime routine, and I wake up feeling refreshed and well-rested. Highly recommended for anyone looking to enhance their sleep experience.",
+            "rating": 5,
+            "user": {
+                "username": "mystique"
+            }
+        },
+        {
+            "id": 3,
+            "review": "I was thoroughly disappointed with the QuickHeat Electric Blanket. At first glance, it seemed promising, but it quickly fell short of expectations. The material feels cheap and uncomfortable against the skin, and it doesn't provide the warmth I was hoping for. Even on the highest setting, it barely feels warmer than a regular blanket. To make matters worse, the controls are confusing and poorly labeled, making it a hassle to adjust. The worst part is, after just a few uses, the blanket started showing signs of wear and tear, with seams coming loose. It's a complete waste of money, and I regret purchasing it. I would not recommend this product to anyone in search of a reliable and cozy electric blanket.",
+            "rating": 2,
+            "user": {
+                "username": "analove"
+            }
+        }
+    ],
+    "quotes": [
+        {
+            "id": 1,
+            "quote": "People will survive, and they will find happiness. Happiness only comes when you're not looking for it.",
+            "author": "Hugh Laurie",
+            "category": "happiness"
+        },
+        {
+            "id": 2,
+            "quote": "What we call happiness in the strictest sense comes from the (preferably sudden) satisfaction of needs which have been dammed up to a high degree.",
+            "author": "Sigmund Freud",
+            "category": "happiness"
+        },
+        {
+            "id": 3,
+            "quote": "Beauty is the promise of happiness.",
+            "author": "Edmund Burke",
+            "category": "happiness"
+        },
+        {
+            "id": 4,
+            "quote": "Alas! if the principles of contentment are not within us, the height of station and worldly grandeur will as soon add a cubit to a man's stature as to his happiness.",
+            "author": "Laurence Sterne",
+            "category": "happiness"
+        },
+        {
+            "id": 5,
+            "quote": "Happiness is a butterfly, which when pursued, is always just beyond your grasp, but which, if you will sit down quietly, may alight upon you.",
+            "author": "Nathaniel Hawthorne",
+            "category": "happiness"
+        },
+        {
+            "id": 6,
+            "quote": "When I left 20th Century-Fox to freelance, my agent believed that getting big money was the way to establish real importance in our industry.",
+            "author": "Loretta Young",
+            "category": "money"
+        },
+        {
+            "id": 7,
+            "quote": "You are your greatest asset. Put your time, effort and money into training, grooming, and encouraging your greatest asset.",
+            "author": "Tom Hopkins",
+            "category": "money"
+        },
+        {
+            "id": 8,
+            "quote": "If it is wrong for you to take money from someone else who earned it, to take their money by force for your own needs, then it is certainly just as wrong for you to demand that the government step forward and do this dirty work for you.",
+            "author": "Neal Boortz",
+            "category": "money"
+        },
+        {
+            "id": 9,
+            "quote": "I used to get my money at the end of the week, buy my mum something, or buy a record, and that was it.",
+            "author": "Elton John",
+            "category": "money"
+        },
+        {
+            "id": 10,
+            "quote": "Money: power at its most liquid.",
+            "author": "Mason Cooley",
+            "category": "money"
+        },
+        {
+            "id": 11,
+            "quote": "When a nation's young men are conservative, its funeral bell is already rung.",
+            "author": "Henry Ward Beecher",
+            "category": "men"
+        },
+        {
+            "id": 12,
+            "quote": "A man who has nothing for which he is willing to fight, nothing which is more important than his own personal safety, is a miserable creature and has no chance of being free unless made and kept so by the exertions of better men than himself.",
+            "author": "John Stuart Mill",
+            "category": "men"
+        },
+        {
+            "id": 13,
+            "quote": "Whenever the people are for gay marriage or medical marijuana or assisted suicide, suddenly the 'will of the people' goes out the window.",
+            "author": "Bill Maher",
+            "category": "medical"
+        },
+        {
+            "id": 14,
+            "quote": "We must believe in luck for how else can we explain the success of those we don't like?",
+            "author": "Cocteau, Jean",
+            "category": "success"
+        },
+        {
+            "id": 15,
+            "quote": "Constant success shows us but one side of the world; adversity brings out the reverse of the picture.",
+            "author": "Colton, Charles Caleb",
+            "category": "success"
+        },
+        {
+            "id": 16,
+            "quote": "If the probability of success is not almost one, then it is damn near zero.",
+            "author": "Ellis, David",
+            "category": "success"
+        },
+        {
+            "id": 17,
+            "quote": "Life affords no higher pleasure than that of surmounting difficulties, passing from one step of success to another, forming new wishes and seeing them gratified.",
+            "author": "Johnson, Samuel",
+            "category": "success"
+        }
     ]
 }

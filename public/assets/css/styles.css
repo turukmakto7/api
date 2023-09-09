@@ -6,6 +6,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -42,7 +43,7 @@ p {
 }
 
 .bg-image {
-  background-image: url("https://image.tmdb.org/t/p/w1920_and_h1080_multi_faces/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg");
+  background-image: url("https://static.skuflic.com/tv/backgrounds/background.jpeg");
   background-size: cover;
   background-position: bottom center;
   margin-bottom: -2px;
@@ -56,6 +57,7 @@ p {
   color: #ced4da;
   padding-right: 20px;
 }
+
 .legal a {
   font-weight: 300;
   color: #ced4da;
@@ -64,11 +66,13 @@ p {
   margin-right: 5px;
   padding-right: 8px;
 }
+
 .legal a:last-child {
   border: none;
   margin: 0;
   padding: 0;
 }
+
 .legal a:hover {
   text-decoration: underline;
 }
@@ -92,11 +96,13 @@ ul {
   list-style-type: none;
   padding-left: 0px;
 }
+
 ul a {
   color: black;
   font-weight: 300;
   margin-bottom: 5px;
 }
+
 ul a:hover {
   color: #0f62fe;
 }
@@ -107,11 +113,10 @@ code {
   border-radius: 4px;
   padding: 3px;
   margin: 10px 0px 10px 0px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
 }
+
 code:hover {
   border: 1px solid #0f62fe;
   color: #0f62fe;
-}/*# sourceMappingURL=styles.css.map */
+}
