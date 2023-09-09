@@ -38,9 +38,9 @@ p {
 }
 
 .bg-image {
-  background-image: url("https://static.skuflic.com/tv/backgrounds/background.jpeg");
+  background-image: url(https://static.skuflic.com/api/background.jpeg);
   background-size: cover;
-  background-position: bottom center;
+  background-position: left;
   margin-bottom: -2px;
 }
 
@@ -122,4 +122,12 @@ code:hover {
 
 #custom-routes code {
   margin: 10px 3px 10px 5px;
+}
+
+.resources {
+  margin-bottom: 15px;
+}
+
+.resources div {
+  display: inline-block;
 }

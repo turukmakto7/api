@@ -44,10 +44,14 @@ p {
 }
 
 .bg-image {
-    background-image: url("https://static.skuflic.com/tv/backgrounds/background.jpeg");
+    background-image: url(https://static.skuflic.com/api/background.jpeg);
     background-size: cover;
-    background-position: bottom center;
+    background-position: left;
+    // background-size: contain;
+    // background-position: center;
     margin-bottom: -2px;
+    // background-repeat: no-repeat;
+    // background-color: black;
 }
 
 .legal {
@@ -124,4 +128,11 @@ code {
     code {
         margin: 10px 3px 10px 5px;
     }
+}
+
+.resources {
+    div {
+        display: inline-block;
+    }
+    margin-bottom: 15px;
 }
