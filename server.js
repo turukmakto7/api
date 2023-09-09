@@ -10,11 +10,10 @@ server.use(middlewares);
 
 server.use(jsonServer.rewriter({
     '/quotes/:id': '/quotes?id=:id',
-    '/quotes/:category': '/quotes?category=:category'
+    '/quotes/:category': '/quotes?category=:category',
+    '/products/:id': '/products?id=:id',
+    '/products/:category': '/products?category=:category'
 }))
-
-server.use(router);
-server.listen(port);
 
 server.use(jsonServer.bodyParser)
 server.use((req, res, next) => {
@@ -24,3 +23,6 @@ server.use((req, res, next) => {
     // Continue to JSON Server router
     next()
 })
+
+server.use(router);
+server.listen(port);
