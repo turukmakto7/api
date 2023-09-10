@@ -11,12 +11,13 @@
                 "state": "TX",
                 "country": "United States of America"
             },
+            "email": "bmorse@example.com",
             "phone": "623-977-5630"
         },
         {
             "id": 2,
             "name": "Terri Wilson",
-            "birth": "October 28, 1979",
+            "birthday": "October 28, 1979",
             "address": {
                 "street": "2304 Tecumsah Lane",
                 "city": "Farmerville",
@@ -24,12 +25,13 @@
                 "state": "LA",
                 "country": "United States of America"
             },
+            "email": "twilson@example.com",
             "phone": "318-982-7172"
         },
         {
             "id": 3,
             "name": "Dorothy McKee",
-            "birth": "March 26, 1945",
+            "birthday": "March 26, 1945",
             "address": {
                 "street": "2691 Edgewood Road",
                 "city": "Huttig",
@@ -37,12 +39,13 @@
                 "state": "AR",
                 "country": "United States of America"
             },
+            "email": "dmckee@example.com",
             "phone": "870-943-0578"
         },
         {
             "id": 4,
             "name": "Vickie Keenan",
-            "birth": "April 19, 1998",
+            "birthday": "April 19, 1998",
             "address": {
                 "street": "4356 Heather Sees Way",
                 "city": "Ketchum",
@@ -50,12 +53,13 @@
                 "state": "OK",
                 "country": "United States of America"
             },
+            "email": "vkeenan@example.com",
             "phone": "918-782-1391"
         },
         {
             "id": 5,
             "name": "Frances Canfield",
-            "birth": "707-910-7581",
+            "birthday": "707-910-7581",
             "address": {
                 "street": "2172 Pretty View Lane",
                 "city": "Sacramento",
@@ -63,12 +67,13 @@
                 "state": "CA",
                 "country": "United States of America"
             },
+            "email": "fcanfield@example.com",
             "phone": "707-910-7581"
         },
         {
             "id": 6,
             "name": "Susan Bufford",
-            "birth": null,
+            "birthday": null,
             "address": {
                 "street": "1637 Pike Street",
                 "city": "San Diego",
@@ -76,6 +81,7 @@
                 "state": "CA",
                 "country": "United States of America"
             },
+            "email": "sbufford@example.com",
             "phone": null
         }
     ],
