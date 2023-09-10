@@ -4,66 +4,78 @@
             "id": 1,
             "name": "Bradford Morse",
             "birthday": "November 1, 2001",
-            "street": "3423 Charla Lane",
-            "city": "Dallas",
-            "zip": 75287,
-            "state": "TX",
-            "country": "United States of America",
+            "address": {
+                "street": "3423 Charla Lane",
+                "city": "Dallas",
+                "zip": 75287,
+                "state": "TX",
+                "country": "United States of America"
+            },
             "phone": "623-977-5630"
         },
         {
             "id": 2,
             "name": "Terri Wilson",
             "birth": "October 28, 1979",
-            "street": "2304 Tecumsah Lane",
-            "city": "Farmerville",
-            "zip": 71241,
-            "state": "LA",
-            "country": "United States of America",
+            "address": {
+                "street": "2304 Tecumsah Lane",
+                "city": "Farmerville",
+                "zip": 71241,
+                "state": "LA",
+                "country": "United States of America"
+            },
             "phone": "318-982-7172"
         },
         {
             "id": 3,
             "name": "Dorothy McKee",
             "birth": "March 26, 1945",
-            "street": "2691 Edgewood Road",
-            "city": "Huttig",
-            "zip": 71747,
-            "state": "AR",
-            "country": "United States of America",
+            "address": {
+                "street": "2691 Edgewood Road",
+                "city": "Huttig",
+                "zip": 71747,
+                "state": "AR",
+                "country": "United States of America"
+            },
             "phone": "870-943-0578"
         },
         {
             "id": 4,
             "name": "Vickie Keenan",
             "birth": "April 19, 1998",
-            "street": "4356 Heather Sees Way",
-            "city": "Ketchum",
-            "zip": 74349,
-            "state": "OK",
-            "country": "United States of America",
+            "address": {
+                "street": "4356 Heather Sees Way",
+                "city": "Ketchum",
+                "zip": 74349,
+                "state": "OK",
+                "country": "United States of America"
+            },
             "phone": "918-782-1391"
         },
         {
             "id": 5,
             "name": "Frances Canfield",
             "birth": "707-910-7581",
-            "street": "2172 Pretty View Lane",
-            "city": "Sacramento",
-            "zip": 95814,
-            "state": "CA",
-            "country": "United States of America",
+            "address": {
+                "street": "2172 Pretty View Lane",
+                "city": "Sacramento",
+                "zip": 95814,
+                "state": "CA",
+                "country": "United States of America"
+            },
             "phone": "707-910-7581"
         },
         {
             "id": 6,
             "name": "Susan Bufford",
             "birth": null,
-            "street": "1637 Pike Street",
-            "city": "San Diego",
-            "zip": 71241,
-            "state": "CA",
-            "country": "United States of America",
+            "address": {
+                "street": "1637 Pike Street",
+                "city": "San Diego",
+                "zip": 71241,
+                "state": "CA",
+                "country": "United States of America"
+            },
             "phone": null
         }
     ],
@@ -72,24 +84,30 @@
             "id": 1,
             "review": "I recently purchased the GlowMaster Pro LED flashlight, and I couldn't be happier with my purchase. This flashlight has quickly become an essential tool in my everyday life.",
             "rating": 5,
+            "date": "2023-06-05T12:25:10.511Z",
             "user": {
-                "username": "johnsmith"
+                "username": "susanbufford",
+                "name": "Susan Bufford"
             }
         },
         {
             "id": 2,
             "review": "I recently tried the 'ZenSleep Tranquil Sleep Mask', and it's been a game-changer for my sleep quality. This sleep mask is incredibly comfortable, with a soft, breathable fabric that blocks out all unwanted light, creating a pitch-black sleeping environment. The adjustable strap ensures a snug fit without any discomfort. What sets it apart is the built-in Bluetooth speakers, which allow me to listen to soothing sounds or white noise, helping me drift into a deeper and more peaceful sleep. It's become an essential part of my bedtime routine, and I wake up feeling refreshed and well-rested. Highly recommended for anyone looking to enhance their sleep experience.",
             "rating": 5,
+            "date": "2023-12-01T09:33:43.511Z",
             "user": {
-                "username": "mystique"
+                "username": "frances",
+                "name": "Frances Canfield"
             }
         },
         {
             "id": 3,
             "review": "I was thoroughly disappointed with the QuickHeat Electric Blanket. At first glance, it seemed promising, but it quickly fell short of expectations. The material feels cheap and uncomfortable against the skin, and it doesn't provide the warmth I was hoping for. Even on the highest setting, it barely feels warmer than a regular blanket. To make matters worse, the controls are confusing and poorly labeled, making it a hassle to adjust. The worst part is, after just a few uses, the blanket started showing signs of wear and tear, with seams coming loose. It's a complete waste of money, and I regret purchasing it. I would not recommend this product to anyone in search of a reliable and cozy electric blanket.",
             "rating": 2,
+            "date": "2023-09-23T18:25:43.511Z",
             "user": {
-                "username": "analove"
+                "username": "vkeenan",
+                "name": null
             }
         }
     ],

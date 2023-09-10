@@ -2,7 +2,7 @@ $gray: #ced4da;
 $white: white;
 $background: #f8f9fa;
 $black: black;
-$blue: #0f62fe;
+$green: #02ff7f;
 
 body {
     font-family: "GT Walsheim Pro";
@@ -105,7 +105,7 @@ ul {
         font-weight: 300;
         margin-bottom: 5px;
         &:hover {
-            color: $blue;
+            color: $green;
         }
     }
 }
@@ -118,8 +118,8 @@ code {
     margin: 10px 0px 10px 0px;
     user-select: none;
     &:hover {
-        border: 1px solid $blue;
-        color: $blue;
+        border: 1px solid $green;
+        color: $green;
     }
 }
 
@@ -135,4 +135,11 @@ code {
         display: inline-block;
     }
     margin-bottom: 15px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .ml-3,
+    .mx-3 {
+        margin-left: 0px !important;
+    }
 }

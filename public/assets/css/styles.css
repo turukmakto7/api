@@ -99,7 +99,7 @@ ul a {
 }
 
 ul a:hover {
-  color: #0f62fe;
+  color: #02ff7f;
 }
 
 code {
@@ -112,8 +112,8 @@ code {
 }
 
 code:hover {
-  border: 1px solid #0f62fe;
-  color: #0f62fe;
+  border: 1px solid #02ff7f;
+  color: #02ff7f;
 }
 
 #custom-routes {
@@ -130,4 +130,11 @@ code:hover {
 
 .resources div {
   display: inline-block;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ml-3,
+  .mx-3 {
+    margin-left: 0px !important;
+  }
 }
