@@ -10,7 +10,8 @@ server.use(middlewares);
 
 // Add this before server.use(router)
 server.use(jsonServer.rewriter({
-    '/quotes/:category': '/quotes?category=:category'
+    '/quotes/:category': '/quotes?category=:category',
+    '/billing/card/:type': '/billing?card_type=:type'
 }))
 
 server.use(jsonServer.bodyParser)
