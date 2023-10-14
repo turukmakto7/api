@@ -1,13 +1,13 @@
 {
   "name": "skuflicapi",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": true,
   "homepage": "https://api.learn.skuflic.com",
   "dependencies": {
     "clone": "^2.1.2"
   },
   "devDependencies": {
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.4"
   },
   "scripts": {
     "start": "node server.js"
