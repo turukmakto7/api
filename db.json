@@ -4085,7 +4085,7 @@
     ],
     "tasks": [
         {
-            "id": "1",
+            "id": 1,
             "task": "Schedule a haircut appointment",
             "completed": "false",
             "date": "May 9, 2023",
@@ -4093,7 +4093,7 @@
             "due": "2023-09-09"
         },
         {
-            "id": "2",
+            "id": 2,
             "task": "Buy groceries for the week",
             "completed": "false",
             "date": "June 13, 2023",
@@ -4101,7 +4101,7 @@
             "due": ""
         },
         {
-            "id": "3",
+            "id": 3,
             "task": "Finish the quarterly report by Friday",
             "completed": "false",
             "date": "July 20, 2023",
@@ -4109,7 +4109,7 @@
             "due": ""
         },
         {
-            "id": "4",
+            "id": 4,
             "task": "Review notes from yesterday's lecture",
             "completed": "false",
             "date": "July 21, 2023",
@@ -4117,7 +4117,7 @@
             "due": ""
         },
         {
-            "id": "5",
+            "id": 5,
             "task": "Sign up for a webinar or online course related to your field of study",
             "completed": "false",
             "date": "August 9, 2023",
@@ -4125,7 +4125,7 @@
             "due": ""
         },
         {
-            "id": "6",
+            "id": 6,
             "task": "Go for a 30-minute jog or walk in the morning",
             "completed": "false",
             "date": "September 9, 2023",
@@ -4133,7 +4133,7 @@
             "due": "2023-09-05"
         },
         {
-            "id": "7",
+            "id": 7,
             "task": "Drink at least 8 glasses of water throughout the day",
             "completed": "false",
             "date": "September 16, 2023",
@@ -4141,7 +4141,7 @@
             "due": ""
         },
         {
-            "id": "11",
+            "id": 8,
             "task": "Inform your bank of your travel plans to avoid card issues",
             "completed": "false",
             "date": "October 10, 2023",
@@ -4149,7 +4149,7 @@
             "due": ""
         },
         {
-            "id": "12",
+            "id": 9,
             "task": "Write a thank-you note to a friend",
             "completed": "false",
             "date": "October 11, 2023",
