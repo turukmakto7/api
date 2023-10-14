@@ -1,27 +1,27 @@
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('db.json');
-const path = require('path');
-const middlewares = jsonServer.defaults({ static: path.join(__dirname, 'public') });
+const jsonServer = require('json-server')
+const server = jsonServer.create()
 
-const port = process.env.PORT || 3000;
+// Uncomment to allow write operations
+const fs = require('fs')
+const path = require('path')
+const filePath = path.join('db.json')
+const data = fs.readFileSync(filePath, "utf-8");
+const db = JSON.parse(data);
+const router = jsonServer.router(db)
 
-server.use(middlewares);
+const middlewares = jsonServer.defaults({ static: path.join(__dirname, 'public') })
 
-// Add this before server.use(router)
+server.use(middlewares)
+
 server.use(jsonServer.rewriter({
     '/quotes/:category': '/quotes?category=:category',
     '/billing/card/:type': '/billing?card_type=:type'
 }))
 
-server.use(jsonServer.bodyParser)
-server.use((req, res, next) => {
-    if (req.method === 'POST') {
-        req.body.createdAt = Date.now()
-    }
-    // Continue to JSON Server router
-    next()
+server.use(router)
+server.listen(3000, () => {
+    console.log('JSON Server is running')
 })
 
-server.use(router);
-server.listen(port);
+// Export the Server API
+module.exports = server
