@@ -16,7 +16,7 @@ server.use(middlewares)
 server.use(jsonServer.rewriter({
     '/quotes/:category': '/quotes?category=:category',
     '/billing/card/:type': '/billing?card_type=:type',
-    '/tasks/:category': '/tasks?category=:category',
+    '/tasks/category/:category': '/tasks?category=:category',
     '/tasks/:id': '/tasks?id=:id',
 }))
 
