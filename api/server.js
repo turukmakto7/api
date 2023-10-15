@@ -19,7 +19,7 @@ const middlewares = jsonServer.defaults({ static: path.join(__dirname, 'public')
 server.use(middlewares)
 // Add this before server.use(router)
 server.use(jsonServer.rewriter({
-    '/api/*': '/$1',
+    // '/api/*': '/$1',
     '/quotes/:category': '/quotes?category=:category',
     '/billing/card/:type': '/billing?card_type=:type',
     '/tasks/category/:category': '/tasks?category=:category',
