@@ -20,7 +20,9 @@ server.use(middlewares)
 // Add this before server.use(router)
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
-    '/blog/:resource/:id/show': '/:resource/:id'
+    '/quotes/:category': '/quotes?category=:category',
+    '/billing/card/:type': '/billing?card_type=:type',
+    '/tasks/category/:category': '/tasks?category=:category',
 }))
 server.use(router)
 server.listen(3000, () => {
