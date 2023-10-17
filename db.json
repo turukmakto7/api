@@ -4093,14 +4093,6 @@
             "due": "2023-09-09"
         },
         {
-            "id": 2,
-            "task": "Buy groceries for the week",
-            "completed": "false",
-            "date": "June 13, 2023",
-            "category": "Personal",
-            "due": ""
-        },
-        {
             "id": 3,
             "task": "Finish the quarterly report by Friday",
             "completed": "false",
@@ -4115,22 +4107,6 @@
             "date": "July 21, 2023",
             "category": "Education",
             "due": ""
-        },
-        {
-            "id": 5,
-            "task": "Sign up for a webinar or online course related to your field of study",
-            "completed": "false",
-            "date": "August 9, 2023",
-            "category": "Education",
-            "due": ""
-        },
-        {
-            "id": 6,
-            "task": "Go for a 30-minute jog or walk in the morning",
-            "completed": "false",
-            "date": "September 9, 2023",
-            "category": "Health and Wellness",
-            "due": "2023-09-05"
         },
         {
             "id": 7,
@@ -4155,6 +4131,46 @@
             "date": "October 11, 2023",
             "category": "Personal",
             "due": "2023-10-15"
+        },
+        {
+            "task": "Start a new painting, drawing, or craft project",
+            "completed": "false",
+            "date": "October 12, 2023",
+            "category": "Miscellaneous",
+            "id": 10,
+            "due": "2024-01-31"
+        },
+        {
+            "task": "Set aside time to check and reply to emails",
+            "completed": "false",
+            "date": "October 13, 2023",
+            "category": "Work",
+            "id": 11,
+            "due": ""
+        },
+        {
+            "task": "Identify and prioritize your top three tasks for the day",
+            "completed": "false",
+            "date": "October 15, 2023",
+            "category": "Financial",
+            "id": 12,
+            "due": ""
+        },
+        {
+            "task": "Schedule a time to clean and tidy up your living space",
+            "completed": "false",
+            "date": "October 16, 2023",
+            "category": "Home Improvement",
+            "id": 13,
+            "due": ""
+        },
+        {
+            "task": "Find and book accommodations that fit your budget and preferences",
+            "completed": "false",
+            "date": "October 17, 2023",
+            "category": "Travel",
+            "id": 14,
+            "due": ""
         }
     ]
 }
