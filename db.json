@@ -4103,7 +4103,7 @@
         {
             "id": 4,
             "task": "Review notes from yesterday's lecture",
-            "completed": "false",
+            "completed": "true",
             "date": "July 21, 2023",
             "category": "Education",
             "due": ""
@@ -4134,7 +4134,7 @@
         },
         {
             "task": "Start a new painting, drawing, or craft project",
-            "completed": "false",
+            "completed": "true",
             "date": "October 12, 2023",
             "category": "Miscellaneous",
             "id": 10,
@@ -4158,7 +4158,7 @@
         },
         {
             "task": "Schedule a time to clean and tidy up your living space",
-            "completed": "false",
+            "completed": "true",
             "date": "October 16, 2023",
             "category": "Home Improvement",
             "id": 13,
